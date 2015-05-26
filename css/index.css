@@ -1,0 +1,37 @@
+body {
+    font-family: PT Sans;
+    background-color: rgb(9, 43, 54);
+    color: rgb(232, 238, 238);
+}
+
+h1 {
+    text-align: center;
+    font-family: Megrim;
+    font-size: 44px;
+    color: #bf360c;
+    }
+
+h3 {
+    text-align: left;
+    font-family: Megrim;
+    font-style: bold;
+    font-size: 36;
+    color:  #bf360c;
+}
+
+nav {
+    text-align: left;
+}
+
+a {
+    color: rgb(164, 50, 95);
+
+}
+
+a:hover {
+    color: #bf360c;
+}
+
+body {
+    color: rgb(127, 148, 150);
+}

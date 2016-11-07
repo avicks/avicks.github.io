@@ -76,6 +76,10 @@ li a {
     color:#4A4A4A;
 }
 
+.lines {
+  color: #2b2b2b;
+}
+
 .broadsoft {
   color: #f2aa4a;
 }
@@ -167,8 +171,8 @@ Animation
     animation-duration: 2.0s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-    -webkit-animation-delay: 5.0s;
-    animation-delay: 5.0s
+    -webkit-animation-delay: 4.0s;
+    animation-delay: 4.0s
 }
 
 .fadein5 {
@@ -181,8 +185,22 @@ Animation
     animation-duration: 2.0s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-    -webkit-animation-delay: 7.5s;
-    animation-delay: 7.5s
+    -webkit-animation-delay: 6.0s;
+    animation-delay: 6.0s
+}
+
+.fadein6 {
+      -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+    animation: fadein 2s;
+    -webkit-animation-duration: 2.0s;
+    animation-duration: 2.0s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-delay: 8.0s;
+    animation-delay: 8.0s
 }
 
 @keyframes fadein {
